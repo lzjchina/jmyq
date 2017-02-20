@@ -1,0 +1,282 @@
+/*******************  *****************/
+
+/******************* 重置样式 *****************/
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+img{
+	display: block;
+}
+ul,li{
+	list-style: none;
+}
+strong,b{
+	font-weight: normal;
+}
+em,i{
+	font-style: normal;
+}
+body{
+	font-size: 12px;
+	font-family: "宋体";
+}
+
+/******************* 1、顶部 *****************/
+#header{
+	width: 1078px;
+	height: 37px;
+	background: #ecf0f1;
+	margin: 0 auto;
+	padding: 0 24px;
+	line-height: 37px;
+}
+#header p{
+	float: left;
+	color: #7b7c7e;
+}
+#header a{
+	float: right;
+	color: #7b7c7e;
+	padding: 0 8px;
+}
+#header .first{
+	/*border-right: 1px solid #7b7c7e;*/
+	background: url(../images/header1.png) no-repeat right center;
+	padding-right: 12px;
+	border: none;
+}
+
+
+
+/******************* 2、联系 *****************/
+#tel{
+	width: 1084px;
+	height: 110px;
+	margin: 0 auto;
+	padding: 0 22px;
+}
+.tel-left{
+	width: 362px;
+	float: left;
+}
+.tel-left img{
+	float: left;
+	margin-top: 20px;
+	margin-right: 15px;
+}
+.tel-left h2{
+	float: left;
+	font-size: 32px;
+	width: 256px;
+	margin-top: 26px;
+	color: #1f83be;
+}
+.tel-left p{
+	float: left;
+	color: #bdc1c2;
+}
+
+.tel-right{
+	width: 478px;
+	float: right;
+	padding-top: 28px;
+	font-size: 16px;
+}
+.tel-right a{
+	margin-left: 50px;
+	float: left;
+}
+.tel-right p,.tel-right span{
+	width: 160px;
+	float: right;
+	line-height:22px;
+}
+.tel-right span{
+	color: #dd503e;
+}
+
+
+/******************* 3、导航 *****************/
+#nav{
+	width: 1080px;
+	height: 50px;
+	background: #3598db;
+	margin: 0 auto;
+	padding: 0 23px;
+}
+#nav a{
+	padding: 0 48px;
+	line-height: 50px;
+	float: left;
+	color: white;
+}
+#nav a:hover{
+	background: #2a80b9;
+}
+
+
+/******************* 4、横幅 *****************/
+#banner{
+	width: 1126px;
+	height: 400px;
+	background: url(../images/banner.png);
+	margin: 0 auto;
+}
+
+
+/******************* 5、公告 *****************/
+#bulletin{
+	width:1054px;
+	height: 52px;
+	/*margin: 0 auto;
+	padding: 29px 22px;*/
+	margin: 29px auto;
+	border: 1px solid gray;
+	line-height: 52px;
+	padding: 0 15px;
+}
+#bulletin span{
+	background: url(../images/bulletin1.png) no-repeat left center;
+	color: red;
+	padding-left: 26px;
+}
+#bulletin a{
+	background: url(../images/bulletin2.png) no-repeat left center;
+	padding-left: 16px;
+	margin-right: 25px;
+	color: #595d68;
+}
+
+
+
+.main_title1{
+	float: left;
+	width: 60px;
+	height:44px;
+	line-height: 44px;
+	border-bottom: 3px solid #3497d8;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: 22px;
+}
+.main_title2{
+	float: left;
+	font-size: 12px;
+	width: 80px;
+	height: 47px;
+	line-height: 47px;
+	margin-top: 20px;
+	color: #a6a6a6;
+}
+.main_more{
+	width: 88px;
+	height: 32px;
+	line-height: 32px;
+	border: 1px solid #f1f1f1;
+	text-align: center;
+	float: right;
+	margin-top: 30px;
+	color: #b3b3b3;
+}
+
+#main_1 .section1,#main_3 .section1{
+	width: 308px;
+	height: 372px;
+	/*background: red;*/
+	float: left;
+}
+#main_1 .section2,#main_3 .section2{
+	width: 350px;
+	height: 372px;
+	/*background: blue;*/
+	margin: 0 20px;
+	float: left;
+}
+#main_1 .section3,#main_3 .section3{
+	width: 386px;
+	height: 372px;
+	/*background: purple;*/
+	float: left;
+}
+#main_1,#main_3{
+	width: 1084px;
+	height: 400px;
+	background: #f8f8f8;
+	margin: 0 auto;
+	padding: 0 21px;
+}
+.main_ul{
+	width: 322px;
+	height: 268px;
+	float: left;
+	padding: 14px 16px 0;
+	background: white;
+}
+.main_ul li{
+	height: 39px;
+	line-height: 39px;
+	border-bottom: 1px dashed gray;
+}
+.main_ul li a{
+	float: left;
+	color: #5f5f5f;
+}
+.main_ul li span{
+	float: right;
+	color: #5f5f5f;
+}
+
+/******************* 6、主体1 *****************/
+#main_1 .section1 a{
+	float: left;
+}
+/******************* 7、主体2 *****************/
+#main_2{
+	width: 1086px;
+	height: 361px;
+	/*background:red;*/
+	margin: 0 auto;
+	padding: 0 20px;
+}
+#main_2 .div1{
+	width: 800px;
+	height: 90px;
+	float: left;
+}
+#main_2 a{
+	float: left;
+	border: 1px solid gray;
+	margin-right: 32px;
+}
+#main_2 .no_margin{
+	margin: 0;
+}
+
+/******************* 8、主体3 *****************/
+#main_3 .main_ul{
+	height: 221px;
+}
+#main_3 .section3 ul{
+	width: 368px;
+	height: 237px;
+	float: left;
+	background: white url(../images/main_3_2.png) no-repeat right center;
+	padding-left: 18px;
+	line-height:237px;
+	text-align:center;
+}
+#main_3 .section3 ul li{
+	width: 151px;
+	height: 55px;
+	border-bottom: 1px dashed gray;
+	background: url(../images/main_3_3.png) no-repeat left center;
+	padding: 20px 0 0 34px;
+	color: #969696;
+}
+#main_3 .section3 ul a{
+	color: #5f5f5f;
+}
